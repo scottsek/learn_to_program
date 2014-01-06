@@ -1,13 +1,13 @@
 #1
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers.each do |one_number|
-	puts one_number
+  puts one_number
 end
 puts
 
 #2
 numbers.each do |one_number|
-	puts one_number if one_number > 5
+  puts one_number if one_number > 5
 end
 puts
 
