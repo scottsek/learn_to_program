@@ -5,9 +5,9 @@ puts 'Enter number between 1 and 3000:'
 number = gets.chomp.to_i
 roman_numeral = ''
 numbers_to_subtract.each do |subtract_me|
-	while number - subtract_me >= 0
-		roman_numeral = roman_numeral + hash_roman[subtract_me]
-		number = number - subtract_me
-	end
+  while number - subtract_me >= 0
+    roman_numeral = roman_numeral + hash_roman[subtract_me]
+    number = number - subtract_me
+  end
 end
 puts roman_numeral
